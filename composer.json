@@ -1,0 +1,14 @@
+{
+  "name": "inisire/tools",
+  "authors": [
+    {
+      "name": "iNiSiRe",
+      "email": "inisire@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Tools": "src/"
+    }
+  }
+}
