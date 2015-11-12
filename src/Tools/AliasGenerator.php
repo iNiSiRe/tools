@@ -33,7 +33,7 @@ class AliasGenerator
     {
         $generated = mb_strtolower($string, 'UTF-8');
         $generated = strtr($generated, self::$transliteration);
-        $generated = preg_replace(["#\\-#", "#\\s#", "#[^A-Za-z0-9\\-]#"], ['', '-', ''], $generated);
+        $generated = preg_replace(['#\-#', '#\s+#', '#[^A-Za-z0-9\-]#'], ['', '-', ''], $generated);
         $generated = trim($generated);
 
         return $generated;
