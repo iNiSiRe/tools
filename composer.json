@@ -8,7 +8,8 @@
   ],
   "autoload": {
     "psr-0": {
-      "Tools": "src/"
+      "Tools": "src/",
+      "Slack": "src/"
     }
   }
 }
